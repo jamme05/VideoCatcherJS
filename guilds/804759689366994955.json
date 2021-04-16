@@ -1,0 +1,36 @@
+{
+  "channels": {
+    "main": [
+      {
+        "id": "UC5CVVneAwwCAW8vQcV1CROw",
+        "latestvideoID": "J6RT3F8PDpE"
+      }
+    ],
+    "extra": [
+      {
+        "id": "UC8-H3qWoyOugf3HUNVxCUYw",
+        "latestvideoID": "XEP-R0osQsM"
+      }
+    ]
+  },
+  "webhooks": {
+    "main": {
+      "channelID": "812252860565291038",
+      "webhookID": "g5JtKD72x6CPlJHqw2Geb9tkJ-DlgZ1pogqyKQP7h-4BWaqNLwtiXfVGo9HIgvrPH8On",
+      "message": {
+        "none": "**{channel}** uploaded **{title}** vid **{release_date}**: {link}",
+        "live": "**{channel}** is now live!!! {link}",
+        "upcoming": "**{channel}** is having a upcoming video or stream at {release_date}!! {link}"
+      }
+    },
+    "extra": {
+      "channelID": null,
+      "webhookID": null,
+      "message": {
+        "none": "**{channel}** has released a new video!! {link}",
+        "live": "**{channel}** is now live!!! {link}",
+        "upcoming": "**{channel}** is having a upcoming video or stream at {release_date}!! {link}"
+      }
+    }
+  }
+}
